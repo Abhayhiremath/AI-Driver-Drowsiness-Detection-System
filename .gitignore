@@ -1,28 +1,51 @@
-backend/venv/
+# ==========================
+# Python
+# ==========================
 venv/
 .venv/
+backend/venv/
+__pycache__/
+*.py[cod]
 
-frontend/node_modules/
+# ==========================
+# Node.js
+# ==========================
 node_modules/
+frontend/node_modules/
 
-**pycache**/
-*.pyc
-
+# ==========================
+# Environment Variables
+# ==========================
 .env
 .env.*
 
+# ==========================
+# Datasets
+# ==========================
+backend/datasets/
+backend/datasets/**
+
+# ==========================
+# Machine Learning Models
+# ==========================
+backend/ml_model/*.h5
+backend/ml_model/*.keras
+backend/ml_model/*.pt
+backend/ml_model/*.pth
+
+# ==========================
+# IDE Files
+# ==========================
 .vscode/
 .idea/
 
-# Large model files
-
-backend/ml_model/resnet50_model.h5
-
+# ==========================
 # Logs
-
+# ==========================
 *.log
 
-# OS files
-
+# ==========================
+# OS Files
+# ==========================
 .DS_Store
 Thumbs.db

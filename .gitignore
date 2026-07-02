@@ -1,0 +1,28 @@
+backend/venv/
+venv/
+.venv/
+
+frontend/node_modules/
+node_modules/
+
+**pycache**/
+*.pyc
+
+.env
+.env.*
+
+.vscode/
+.idea/
+
+# Large model files
+
+backend/ml_model/resnet50_model.h5
+
+# Logs
+
+*.log
+
+# OS files
+
+.DS_Store
+Thumbs.db
